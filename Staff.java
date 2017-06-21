@@ -29,12 +29,9 @@ public class LeeraStaff implements CommandExecutor {
     
 	
     
-    /*
-    For when I get to moderation in this plugin. 
-    Will do a checker to see if the player is online or not.
-    Probably should make it to be able to ban the player if they are offline regardless but what ever. :stuck_out_tongue:
+    
+    //For when I get to moderation in this plugin. 
     public boolean isOnline() {
     }
-    */
 
 } 

@@ -10,10 +10,10 @@ import org.bukkit.entity.Player;
 
 public class LeeraStaff implements CommandExecutor {
 
-	if(!sender.hasPermission("ADMIN")) {
-		sender.sendMessage(ChatColor.RED + "You do not have permission to execute this command.");
-		return true;
-	}	
+    if(!sender.hasPermission("ADMIN")) {
+	sender.sendMessage(ChatColor.RED + "You do not have permission to execute this command.");
+	return true;
+    }	
 
     public void onEnable() {
         Bukkit.getServer().getLogger("Plugin LeeraStaff has been enabled!")
